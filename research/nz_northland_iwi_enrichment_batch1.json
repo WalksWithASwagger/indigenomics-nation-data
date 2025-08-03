@@ -1,0 +1,134 @@
+{
+  "batch_metadata": {
+    "region": "Northland/Te Tai Tokerau",
+    "research_date": "2025-08-03",
+    "researcher": "NZ Research Agent",
+    "batch_number": 1,
+    "iwi_count": 6
+  },
+  "iwi_data": [
+    {
+      "iwi_name": "Te Aupōuri",
+      "runanga_trust": "Te Rūnanga Nui o Te Aupōuri",
+      "official_website": "https://www.teaupouri.iwi.nz/",
+      "contact_email": "info@teaupouri.iwi.nz",
+      "contact_phone": "+64 9 4098006",
+      "physical_address": "24 Te Ahu Road, RD4, Kaitāia 0484",
+      "treaty_settlement": "Settled",
+      "settlement_date": "2015-01-01",
+      "settlement_act": "Te Aupōuri Claims Settlement Act 2015",
+      "governance_structure": "Seven trustees elected by the iwi whānui",
+      "rohe_details": "From Te Wharau (at North Cape) west to Te Reinga; then South to Puketutu (a hill, a mile north of the present Kaitaia Golf Course) on to Te Oneroa-A-Tohe (Ninety Mile Beach)",
+      "legal_status": "Post-Treaty settlement governance entity; Mandated iwi organisation (MFA 2004); Iwi authority (RMA 1991)",
+      "data_sources": "Te Kāhui Māngai; Te Aupōuri website",
+      "last_verified": "2025-08-03"
+    },
+    {
+      "iwi_name": "Ngāti Kurī",
+      "alternative_names": "Ngāti Kuri",
+      "runanga_trust": "Te Rūnanga o Ngāti Kurī",
+      "official_website": "https://ngatikuri.iwi.nz/",
+      "physical_address": "Te Manawa o Ngāti Kurī, Far North Road, Ngātaki",
+      "postal_address": "5399 Main Road North, Ngataki, RD4, Kaitāia 0484",
+      "treaty_settlement": "Settled",
+      "settlement_date": "2014-02-07",
+      "settlement_value": "$21 million financial and commercial redress",
+      "settlement_act": "Ngāti Kurī Claims Settlement Act 2015",
+      "governance_structure": "Three persons representing 'Ngāti Kurī Electorate'; three persons representing 'Muriwhenua Electorate'; Five persons representing 'General Electorate'",
+      "major_landmarks": "Cape Reinga/Te Rerenga Wairua, Te Oneroa-a-Tohe/Ninety Mile Beach (dual names)",
+      "cultural_fund": "$2.23 million cultural endowment fund",
+      "legal_status": "Post-Treaty settlement governance entity; Mandated iwi organisation (MFA 2004); Iwi Aquaculture Organisation; Iwi authority (RMA 1991); Tūhono organisation",
+      "data_sources": "Te Kāhui Māngai; Te Arawhiti; Ngāti Kurī website",
+      "last_verified": "2025-08-03"
+    },
+    {
+      "iwi_name": "Ngāti Kahu",
+      "runanga_trust": "Te Rūnanga-a-Iwi o Ngāti Kahu",
+      "official_website": "https://ngatikahu.iwi.nz/",
+      "secondary_website": "https://ngatikahu.org.nz/",
+      "contact_email": "office@ngatikahu.iwi.nz",
+      "contact_phone": "+64 9 408 3013",
+      "physical_address": "21A Parkdale Cres, Kaitaia, New Zealand",
+      "postal_address": "PO Box 392, Kaitāia 0410",
+      "governance_structure": "Two representatives from each Ngāti Kahu marae plus Auckland-based taurahere",
+      "health_services": {
+        "name": "Ngāti Kahu Social and Health Services",
+        "phone": "0800 428 452",
+        "email": "reception@ngatikahu.org.nz",
+        "referrals_email": "referrals@ngātikahu.org.nz"
+      },
+      "legal_status": "Mandated iwi organisation (MFA 2004); Iwi authority (RMA 1991)",
+      "data_sources": "Te Kāhui Māngai; Ngāti Kahu websites",
+      "last_verified": "2025-08-03"
+    },
+    {
+      "iwi_name": "Te Rarawa",
+      "runanga_trust": "Te Rūnanga o Te Rarawa",
+      "official_website": "https://www.terarawa.iwi.nz/",
+      "postal_address": "PO Box 361, Kaitāia 0441",
+      "treaty_settlement": "Settled",
+      "settlement_date": "2015-01-01",
+      "settlement_value": "$33.84 million plus interest",
+      "settlement_act": "Te Rarawa Claims Settlement Act 2015",
+      "governance_structure": "One trustee from each of 19 active marae and two taura here (4 marae not represented)",
+      "rohe_details": "From Hokianga eastwards to Mangataipa, north along Raetea ranges, down Pamapuria River to Maimaru, across to Awanui, west to Hukatere on Te Oneroa-a-Tōhē, down coastline past Ahipara to Hokianga",
+      "established": "1990",
+      "legal_status": "Post-Treaty settlement governance entity; Mandated iwi organisation (MFA 2004); Iwi Aquaculture Organisation; Iwi authority (RMA 1991)",
+      "data_sources": "Te Kāhui Māngai; Te Arawhiti; Te Rarawa website",
+      "last_verified": "2025-08-03",
+      "notes": "One of five iwi in Te Hiku o Te Ika a Maui"
+    },
+    {
+      "iwi_name": "Ngāi Takoto",
+      "runanga_trust": "Te Rūnanga o Ngāi Takoto",
+      "official_website": "https://ngaitakotoiwi.co.nz/",
+      "contact_email": "admin@ngaitakotoiwi.co.nz",
+      "contact_phone": "0508 TAKOTO (825 686)",
+      "alt_phone": "(09) 408 0271",
+      "physical_address": "16 Matthews Avenue, Kaitaia, New Zealand",
+      "alt_physical_address": "Ngāi Takoto House, Cnr Mathews Avenue and Melba Street, Kaitāia",
+      "postal_address": "PO Box 262, Kaitaia 0410 New Zealand",
+      "office_hours": "Mon – Fri 9am – 4.30pm",
+      "contact_person": {
+        "name": "Rose Vazey-Roberts",
+        "title": "Secretary / Communications Administration",
+        "email": "admin@ngaitakotoiwi.co.nz"
+      },
+      "australia_office": {
+        "email": "info@ngaitakotoaustralia.com.au",
+        "website": "ngaitakotoaustralia.com",
+        "postal_address": "PO Box 5186 Chullora Post Shop, Chullora NSW, 2190 Australia"
+      },
+      "treaty_settlement": "Settled",
+      "settlement_act": "Ngāi Takoto Claims Settlement Act 2015",
+      "governance_structure": "Five representatives chosen from Ngāi Takoto marae committee members",
+      "legal_status": "Post-Treaty settlement governance entity; Iwi authority (RMA 1991)",
+      "data_sources": "Te Kāhui Māngai; Ngāi Takoto website",
+      "last_verified": "2025-08-03"
+    },
+    {
+      "iwi_name": "Ngātiwai",
+      "runanga_trust": "Ngātiwai Trust Board",
+      "official_website": "https://ngatiwai.iwi.nz/",
+      "contact_email": "ngatiwai@ngatiwai.iwi.nz",
+      "contact_phone": "09 430 0939",
+      "location": "Whangarei, Northland",
+      "governance_structure": "14 trustees representing affiliated marae in the Ngātiwai takiwā",
+      "number_of_marae": 14,
+      "legal_entity": "Registered under the Charitable Trusts Act 1957",
+      "legal_status": "Mandated iwi authority; Iwi authority (RMA 1991); Mandated iwi organisation (MFA 2004)",
+      "social_media": {
+        "facebook": "https://www.facebook.com/ngatiwaitb/",
+        "followers": "7000+"
+      },
+      "recent_publication": "Annual Report 2024",
+      "data_sources": "Te Kāhui Māngai; Ngātiwai Trust Board website",
+      "last_verified": "2025-08-03"
+    }
+  ],
+  "remaining_northland_iwi_to_research": [
+    "Ngāti Whātua (general)",
+    "Ngāpuhi/Ngāti Kahu ki Whaingaroa"
+  ],
+  "notes": "This batch covers 6 of the 8 major Northland iwi. Ngāpuhi already has comprehensive data in the database. Email addresses were not available for all iwi through public sources."
+}

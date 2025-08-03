@@ -1,0 +1,188 @@
+{
+  "database_name": "New Zealand Māori Iwi",
+  "description": "Comprehensive database of Māori iwi (tribes) across Aotearoa New Zealand",
+  "version": "1.0.0",
+  "last_updated": "2025-08-03",
+  "fields": {
+    "iwi_name": {
+      "type": "title",
+      "description": "Official name of the iwi",
+      "required": true,
+      "example": "Ngāi Tahu"
+    },
+    "alternative_names": {
+      "type": "text",
+      "description": "Historical or alternative names",
+      "required": false,
+      "example": "Kāi Tahu (southern dialect)"
+    },
+    "region": {
+      "type": "select",
+      "description": "Primary geographic region",
+      "required": true,
+      "options": [
+        "Northland/Te Tai Tokerau",
+        "Auckland/Tāmaki Makaurau",
+        "Waikato",
+        "Bay of Plenty/Te Moana-a-Toi",
+        "East Coast/Te Tai Rāwhiti",
+        "Taranaki",
+        "Manawatū-Whanganui",
+        "Wellington/Te Whanganui-a-Tara",
+        "Nelson/Whakatū",
+        "Marlborough/Te Tau Ihu",
+        "West Coast/Te Tai Poutini",
+        "Canterbury/Waitaha",
+        "Otago/Ōtākou",
+        "Southland/Murihiku",
+        "Chatham Islands/Rēkohu"
+      ]
+    },
+    "rohe": {
+      "type": "rich_text",
+      "description": "Traditional territory boundaries",
+      "required": true,
+      "example": "From Aoraki/Mt Cook to Rakiura/Stewart Island"
+    },
+    "whakapapa": {
+      "type": "text",
+      "description": "Founding ancestor/eponymous ancestor",
+      "required": false,
+      "example": "Descended from Tahu Pōtiki"
+    },
+    "major_hapu": {
+      "type": "rich_text",
+      "description": "Major hapū (sub-tribes) within the iwi",
+      "required": false
+    },
+    "number_of_marae": {
+      "type": "number",
+      "description": "Number of marae affiliated with the iwi",
+      "required": false
+    },
+    "registered_population": {
+      "type": "number",
+      "description": "Registered iwi members (from census/iwi data)",
+      "required": false,
+      "source": "Cite source and year"
+    },
+    "runanga_trust": {
+      "type": "text",
+      "description": "Official governance entity/rūnanga",
+      "required": false,
+      "example": "Te Rūnanga o Ngāi Tahu"
+    },
+    "official_website": {
+      "type": "url",
+      "description": "Official iwi website",
+      "required": false
+    },
+    "contact_email": {
+      "type": "email",
+      "description": "Public contact email",
+      "required": false
+    },
+    "contact_phone": {
+      "type": "phone",
+      "description": "Public contact phone",
+      "required": false
+    },
+    "physical_address": {
+      "type": "text",
+      "description": "Main office/rūnanga address",
+      "required": false
+    },
+    "treaty_settlement": {
+      "type": "select",
+      "description": "Treaty of Waitangi settlement status",
+      "required": false,
+      "options": [
+        "Settled",
+        "In Negotiation",
+        "Pre-negotiation",
+        "Not Started",
+        "N/A"
+      ]
+    },
+    "settlement_date": {
+      "type": "date",
+      "description": "Date of Treaty settlement (if applicable)",
+      "required": false
+    },
+    "settlement_value": {
+      "type": "text",
+      "description": "Settlement package details",
+      "required": false
+    },
+    "major_landmarks": {
+      "type": "rich_text",
+      "description": "Significant mountains, rivers, lakes",
+      "required": false,
+      "example": "Maunga: Aoraki, Awa: Waitaki, Clutha/Mata-Au"
+    },
+    "dialect_variations": {
+      "type": "text",
+      "description": "Te reo Māori dialect features",
+      "required": false,
+      "example": "Southern dialect: 'k' instead of 'ng'"
+    },
+    "current_initiatives": {
+      "type": "rich_text",
+      "description": "Current programs and projects",
+      "required": false
+    },
+    "educational_institutions": {
+      "type": "rich_text",
+      "description": "Wānanga, kura, educational programs",
+      "required": false
+    },
+    "iwi_media": {
+      "type": "rich_text",
+      "description": "Radio stations, publications, media",
+      "required": false
+    },
+    "economic_entities": {
+      "type": "rich_text",
+      "description": "Commercial operations, investments",
+      "required": false
+    },
+    "pepeha_template": {
+      "type": "rich_text",
+      "description": "Traditional introduction format",
+      "required": false
+    },
+    "resources_links": {
+      "type": "rich_text",
+      "description": "Additional resources and links",
+      "required": false
+    },
+    "data_sources": {
+      "type": "rich_text",
+      "description": "Sources for all information",
+      "required": true
+    },
+    "last_verified": {
+      "type": "date",
+      "description": "Date information was last verified",
+      "required": true
+    },
+    "notes": {
+      "type": "rich_text",
+      "description": "Internal research notes",
+      "required": false
+    },
+    "status": {
+      "type": "select",
+      "description": "Research status",
+      "required": true,
+      "options": [
+        "Not Started",
+        "In Progress",
+        "Needs Verification",
+        "Complete",
+        "Needs Update"
+      ],
+      "default": "Not Started"
+    }
+  }
+}

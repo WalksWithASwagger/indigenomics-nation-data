@@ -1,0 +1,12 @@
+{
+  "importDate": "2025-08-03T19:46:29.492Z",
+  "databaseId": "244c6f799a3381a9a757f86ab90ec3f6",
+  "batch": 2,
+  "totalEntries": 25,
+  "results": {
+    "successful": 25,
+    "failed": 0,
+    "errors": []
+  },
+  "dataSource": "NZ Research Agent Comprehensive Data 2025-08-03"
+}

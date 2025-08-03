@@ -1,0 +1,194 @@
+{
+  "database_name": "Vancouver Island First Nations",
+  "description": "Comprehensive database of Indigenous First Nations on Vancouver Island",
+  "version": "1.0.0",
+  "last_updated": "2025-08-03",
+  "fields": {
+    "nation_name": {
+      "type": "title",
+      "description": "Official name of the First Nation",
+      "required": true,
+      "example": "Tsawwassen First Nation"
+    },
+    "traditional_name": {
+      "type": "text",
+      "description": "Traditional name in Indigenous language",
+      "required": false,
+      "example": "sc̓əwaθən məsteyəxʷ"
+    },
+    "cultural_group": {
+      "type": "select",
+      "description": "Major cultural/linguistic group",
+      "required": true,
+      "options": [
+        "Coast Salish",
+        "Nuu-chah-nulth",
+        "Kwakwaka'wakw",
+        "Other"
+      ]
+    },
+    "language_family": {
+      "type": "text",
+      "description": "Language family and specific dialect",
+      "required": false,
+      "example": "Salishan - Hul'qumi'num"
+    },
+    "traditional_territory": {
+      "type": "text",
+      "description": "Description of traditional territory location",
+      "required": true,
+      "example": "Southern Vancouver Island, Gulf Islands"
+    },
+    "coordinates": {
+      "type": "text",
+      "description": "GPS coordinates of main community (if applicable)",
+      "required": false,
+      "format": "latitude, longitude",
+      "example": "48.9447° N, 123.4993° W"
+    },
+    "official_website": {
+      "type": "url",
+      "description": "Official First Nation website",
+      "required": false,
+      "validation": "Must be valid URL"
+    },
+    "contact_email": {
+      "type": "email",
+      "description": "Public contact email",
+      "required": false,
+      "privacy": "Only public emails"
+    },
+    "contact_phone": {
+      "type": "phone",
+      "description": "Public contact phone number",
+      "required": false,
+      "privacy": "Only public numbers"
+    },
+    "population": {
+      "type": "number",
+      "description": "Registered population (if publicly available)",
+      "required": false,
+      "source": "Cite source and year"
+    },
+    "governance_type": {
+      "type": "multi_select",
+      "description": "Type of governance structure",
+      "required": false,
+      "options": [
+        "Elected Chief and Council",
+        "Hereditary Chiefs",
+        "Traditional Governance",
+        "Self-Government Agreement",
+        "Treaty"
+      ]
+    },
+    "chief_councillor": {
+      "type": "text",
+      "description": "Current elected Chief (if applicable)",
+      "required": false,
+      "privacy": "Only if publicly listed"
+    },
+    "history_overview": {
+      "type": "rich_text",
+      "description": "Brief historical overview",
+      "required": false,
+      "max_length": 1000,
+      "guidelines": "Respectful, factual, from Indigenous perspective when available"
+    },
+    "cultural_highlights": {
+      "type": "rich_text",
+      "description": "Public cultural information",
+      "required": false,
+      "guidelines": "Only information Nations have made public"
+    },
+    "current_initiatives": {
+      "type": "rich_text",
+      "description": "Current programs, projects, and initiatives",
+      "required": false,
+      "examples": "Economic development, cultural programs, education"
+    },
+    "treaties_agreements": {
+      "type": "multi_select",
+      "description": "Treaties and agreements",
+      "required": false,
+      "options": [
+        "Douglas Treaty",
+        "Modern Treaty",
+        "Self-Government Agreement",
+        "Reconciliation Agreement",
+        "Other Agreement",
+        "No Treaty"
+      ]
+    },
+    "treaty_details": {
+      "type": "text",
+      "description": "Specific treaty information",
+      "required": false
+    },
+    "resources_links": {
+      "type": "rich_text",
+      "description": "Additional resources and links",
+      "required": false,
+      "format": "Markdown links"
+    },
+    "data_sources": {
+      "type": "rich_text",
+      "description": "Sources for all information",
+      "required": true,
+      "format": "Citation format with dates"
+    },
+    "last_verified": {
+      "type": "date",
+      "description": "Date information was last verified",
+      "required": true,
+      "auto_update": false
+    },
+    "notes": {
+      "type": "rich_text",
+      "description": "Internal research notes",
+      "required": false,
+      "privacy": "Not for public sharing"
+    },
+    "status": {
+      "type": "select",
+      "description": "Research status",
+      "required": true,
+      "options": [
+        "Not Started",
+        "In Progress",
+        "Needs Verification",
+        "Complete",
+        "Needs Update"
+      ],
+      "default": "Not Started"
+    }
+  },
+  "views": {
+    "by_cultural_group": {
+      "type": "board",
+      "group_by": "cultural_group"
+    },
+    "by_status": {
+      "type": "board",
+      "group_by": "status"
+    },
+    "master_list": {
+      "type": "table",
+      "sort": "nation_name",
+      "filters": []
+    },
+    "map_view": {
+      "type": "map",
+      "location_field": "coordinates"
+    }
+  },
+  "templates": {
+    "new_nation": {
+      "description": "Template for adding new First Nation",
+      "prefilled_fields": {
+        "status": "In Progress",
+        "last_verified": "today"
+      }
+    }
+  }
+}
