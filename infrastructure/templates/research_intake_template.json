@@ -1,0 +1,234 @@
+{
+  "template_version": "1.0.0",
+  "template_type": "indigenous_group_research",
+  "metadata": {
+    "researcher_id": "",
+    "research_date": "",
+    "region": "",
+    "country": "",
+    "review_status": "pending",
+    "quality_score": null
+  },
+  "core_data": {
+    "identification": {
+      "primary_name": {
+        "value": "",
+        "source": "",
+        "confidence": "high|medium|low",
+        "notes": ""
+      },
+      "alternative_names": {
+        "value": [],
+        "source": "",
+        "notes": ""
+      },
+      "name_etymology": {
+        "value": "",
+        "source": "",
+        "notes": ""
+      }
+    },
+    "location": {
+      "traditional_territory": {
+        "description": "",
+        "boundaries": "",
+        "source": "",
+        "map_reference": ""
+      },
+      "current_location": {
+        "primary_region": "",
+        "settlements": [],
+        "coordinates": [],
+        "source": ""
+      },
+      "sacred_sites": {
+        "public_info_only": true,
+        "sites": [],
+        "source": ""
+      }
+    },
+    "demographics": {
+      "population": {
+        "total": null,
+        "year": "",
+        "source": "",
+        "trend": "increasing|stable|decreasing|unknown"
+      },
+      "diaspora": {
+        "locations": [],
+        "estimated_numbers": null,
+        "source": ""
+      }
+    },
+    "language": {
+      "language_family": {
+        "value": "",
+        "source": ""
+      },
+      "languages_spoken": {
+        "traditional": [],
+        "current": [],
+        "source": ""
+      },
+      "language_status": {
+        "classification": "thriving|vulnerable|endangered|critical|extinct",
+        "speakers": null,
+        "revitalization_efforts": "",
+        "source": ""
+      }
+    },
+    "governance": {
+      "traditional_governance": {
+        "structure": "",
+        "leadership_roles": [],
+        "source": ""
+      },
+      "current_governance": {
+        "type": "",
+        "recognized_entity": "",
+        "leadership": {
+          "current_leaders": [],
+          "selection_method": ""
+        },
+        "source": ""
+      },
+      "legal_status": {
+        "recognition": "",
+        "treaties": [],
+        "agreements": [],
+        "source": ""
+      }
+    },
+    "culture": {
+      "cultural_practices": {
+        "public_information": "",
+        "ceremonies": [],
+        "arts": [],
+        "source": ""
+      },
+      "spiritual_beliefs": {
+        "public_information": "",
+        "important_figures": [],
+        "source": ""
+      },
+      "material_culture": {
+        "traditional_items": [],
+        "museums_collections": [],
+        "source": ""
+      }
+    },
+    "history": {
+      "origin_story": {
+        "public_version": "",
+        "source": ""
+      },
+      "historical_timeline": {
+        "key_events": [],
+        "source": ""
+      },
+      "colonial_impact": {
+        "first_contact": "",
+        "major_impacts": [],
+        "source": ""
+      }
+    },
+    "contemporary": {
+      "current_issues": {
+        "priorities": [],
+        "challenges": [],
+        "source": ""
+      },
+      "economic_activities": {
+        "traditional": [],
+        "modern": [],
+        "enterprises": [],
+        "source": ""
+      },
+      "education": {
+        "institutions": [],
+        "programs": [],
+        "source": ""
+      },
+      "media_communications": {
+        "websites": [],
+        "social_media": [],
+        "publications": [],
+        "radio_tv": [],
+        "source": ""
+      }
+    },
+    "relationships": {
+      "allied_groups": {
+        "traditional_allies": [],
+        "current_partnerships": [],
+        "source": ""
+      },
+      "organizations": {
+        "member_of": [],
+        "partnerships": [],
+        "source": ""
+      }
+    },
+    "contact": {
+      "official_contact": {
+        "website": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "source": "",
+        "verified_date": ""
+      },
+      "communication_preferences": {
+        "preferred_language": "",
+        "protocol_notes": "",
+        "source": ""
+      }
+    }
+  },
+  "citations": {
+    "primary_sources": [
+      {
+        "type": "official_website|government|academic|news|book|report",
+        "title": "",
+        "author": "",
+        "organization": "",
+        "url": "",
+        "publication_date": "",
+        "access_date": "",
+        "archive_url": "",
+        "notes": ""
+      }
+    ],
+    "secondary_sources": [],
+    "oral_sources": [],
+    "verification_notes": ""
+  },
+  "quality_assurance": {
+    "completeness": {
+      "required_fields_complete": false,
+      "missing_fields": [],
+      "data_gaps": []
+    },
+    "accuracy": {
+      "cross_referenced": false,
+      "conflicting_information": [],
+      "verification_needed": []
+    },
+    "cultural_sensitivity": {
+      "reviewed_by_community": false,
+      "sensitive_information_removed": false,
+      "permissions_obtained": false
+    },
+    "updates": {
+      "last_verified": "",
+      "next_review_date": "",
+      "change_log": []
+    }
+  },
+  "internal_notes": {
+    "research_notes": "",
+    "follow_up_needed": [],
+    "collaboration_notes": "",
+    "flags": []
+  }
+}
